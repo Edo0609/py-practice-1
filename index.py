@@ -23,7 +23,7 @@ Exercise 2:** Calculate the number of YEARS until 2045.
 Use the variable `year` to store the current year.
 '''
 year = 2023 # get current year
-years_left = 2045 - 2023 # write your code here
+years_left = 2045 - year # write your code here
 print("Number of years left:", years_left)
 
 '''
@@ -37,7 +37,7 @@ print("Number of days left:", days_left)
 '''
 Exercise 4:** Check if the word "IA" is includes in the story.
 '''
-ia_in_story = False # write your code here
+ia_in_story = "IA" in story # write your code here
 if (ia_in_story):
   print("The word 'IA' is in the story")
 else:
