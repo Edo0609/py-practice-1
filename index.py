@@ -59,7 +59,7 @@ print("Last 10 words in the story:", words[-10:])
 '''
 Exercise 7:** Create a list of the words in the story and print the words in the 10th to 20th position.
 '''
-print("Words in the 10th to 20th position:", words[10:21])
+print("Words in the 10th to 20th position:", words[10:20]) #antes puse 21, pero chequear si es posicion 20 incluida o no
 
 '''
 Exercise 8:** Count the number of times the word "Javier" appears in the story.
