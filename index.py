@@ -59,18 +59,18 @@ print("Last 10 words in the story:", words[-10:])
 '''
 Exercise 7:** Create a list of the words in the story and print the words in the 10th to 20th position.
 '''
-print("Words in the 10th to 20th position:", words)
+print("Words in the 10th to 20th position:", words[10:21])
 
 '''
 Exercise 8:** Count the number of times the word "Javier" appears in the story.
 '''
-javier_count = 0 # write your code here
+javier_count = story.count('Javier') # write your code here
 print("Number of times the word 'Javier' appears in the story:", javier_count)
 
 '''
 Exercise 9:** Replace the word "Javier" with "Pepito" in the story.
 '''
-story2 = "" # write your code here
+story2 = story.replace('Javier', 'Pepito') # write your code here
 print("Story with 'Javier' replaced with 'Pepito':", story2)
 
 '''
